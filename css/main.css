@@ -2,35 +2,40 @@
 
 
 body {
-	background-color: #FAFAFA;
-	font-family: helvetica, sans-serif;
+  background-color: #FAFAFA;
+  font-family: helvetica, sans-serif;
 }
 
 
 
 
 marquee {
-	font-size: 45px;
-	background-color: white;
-	overflow: hidden;
+  font-size: 45px;
+  background-color: white;
+  overflow: hidden;
 }
 
 .card {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .card-text {
-	font-size: 25px;
+  font-size: 25px;
 }
 
 .card-header {
-	background-color: white;
-	vertical-align: center;
+  background-color: white;
+  vertical-align: center;
 
 }
 .card-body {
-	background-color: #efefef;
+  background-color: #efefef;
 
+}
+
+.user {
+  position: relative;
+  left:35px;
 }
 
 .dot {
@@ -39,11 +44,13 @@ marquee {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+ position: absolute;
+ top:10px;
 
 }
 
 .myButton {
-	background-color: #efefef;
+  background-color: #efefef;
 }
 
 .rwd-video {
@@ -63,7 +70,9 @@ marquee {
     width: 100%;
 }
 
+
+
 footer {
-	background-color: white !important; 
-	margin: 0px;
+  background-color: white !important; 
+  margin: 0px;
 
